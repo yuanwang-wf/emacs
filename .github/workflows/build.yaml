@@ -71,7 +71,7 @@ jobs:
         echo -e "\n\e[4mDerivation\e[0m\n"
         cat ./emacs.drv
 
-    - uses: actions/cache@v2
+    - uses: actions/cache@v3
       id: cache-drv
       with:
         path: ./emacs.drv
